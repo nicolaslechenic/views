@@ -5,6 +5,7 @@
 <%= render template: 'users/foo' %>
 <%= render partial: 'users/bar' %>
 <%= render 'users/bar' %>
+<%= render 'users/baz', locals: { users: @users } %>
 
 <table>
   <thead>
